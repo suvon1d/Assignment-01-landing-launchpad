@@ -1,0 +1,65 @@
+/* body style........ */
+.raleway-primary-text{
+    
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    margin: 0 0;
+}
+
+/* common style............ */
+
+.primary-color{
+    color: #4E47FF;
+}
+
+.primary-btn{
+   color: white; 
+   background-color: #4E47FF;
+   padding: 12px 36px;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 16px;
+}
+
+/* header style.......... */
+
+.header{
+    background-image: url(/Assets/Hero-bg.png);
+}
+/* nav section style............... */
+
+.nav{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.nav-title{
+    font-weight:bolder;
+    font-size: 35px;
+}
+
+/* banner section style.......... */
+
+.banner{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.banner-heading{
+    font-weight: bold;
+    font-size: 65px;
+}
