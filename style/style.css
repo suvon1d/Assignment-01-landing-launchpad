@@ -25,6 +25,19 @@ body{
    font-size: 16px;
 }
 
+.primary-btn:hover{
+    background-color: yellowgreen;
+    color: #252432;
+}
+
+
+.section-heading{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+
 /* header style.......... */
 
 .header{
@@ -76,13 +89,10 @@ main{
 .action-section{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 85px;
 }
 
-.section-heading{
-    font-weight: bold;
-    font-size: 42px;
-}
 
 .section-title{
     font-size: 24px;
@@ -94,3 +104,97 @@ main{
 }
 
 /* user-section style..... */
+
+.user-section{
+    background-color: rgba(78, 71, 255, 0.12);
+    margin-top: 120px;
+    margin-bottom: 135px;
+    padding: 50px 140px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    gap: 10px;
+}
+
+.user-details{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+     margin-top: 0px;
+}
+
+.user-data{
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 0;
+}
+
+
+/* let's-get-in-touch section style */
+
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.touch-section-title{
+    font-weight: bold;
+    font-size: 98px;
+    gap: 112px;
+}
+
+.touch-section-from label{
+    display: block;
+    margin-top: 15px;
+}
+
+.label{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.input{
+    padding: 20px 32px;
+    border: 1px rgba(0, 0, 0, 0.103) solid;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.button{
+    width: 100%;
+}
+
+/* footer section style */
+
+.footer{
+    text-align: center;
+    padding: 104px;
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+.footer-logo{
+    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+
+
+.footer-link li{
+    list-style: none;
+
+}
+.footer-link li a{
+    text-decoration: none;
+    color: #252432;
+}
