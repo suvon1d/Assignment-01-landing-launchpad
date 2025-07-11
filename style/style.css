@@ -18,9 +18,9 @@ body{
 .primary-btn{
    color: white; 
    background-color: #4E47FF;
-   padding: 12px 36px;
+   padding: 20px 36px;
    border: none;
-   border-radius: 5px;
+   border-radius: 10px;
    font-weight: bold;
    font-size: 16px;
 }
@@ -62,4 +62,33 @@ nav ul li{
 .banner-heading{
     font-weight: bold;
     font-size: 65px;
+}
+
+/* main section style...... */
+
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* action section style..... */
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.section-heading{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.section-title{
+    font-size: 24px;
+    color: #252432;
+}
+
+.action-img{
+    border-radius: 50px;
 }
